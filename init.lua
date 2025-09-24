@@ -367,6 +367,8 @@ require('lazy').setup({
         'prettierd',
         'prettier',
         'black',
+        'jinja-lsp',
+        'djlint',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
